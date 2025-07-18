@@ -1,0 +1,5 @@
+.env
+__pycache__/
+static/uploads/*
+*.pyc
+chroma_db_cohere/

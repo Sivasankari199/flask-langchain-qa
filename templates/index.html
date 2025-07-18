@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF Q&A App</title>
+</head>
+<body>
+    <h2>Upload a PDF and ask a question:</h2>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="pdf_file" accept=".pdf" required>
+        <br><br>
+        <input type="text" name="query" style="width:400px;" placeholder="Enter your question..." required>
+        <input type="submit" value="Ask">
+    </form>
+
+    {% if answer %}
+        <h3>Answer:</h3>
+        <p>{{ answer }}</p>
+    {% endif %}
+</body>
+</html>
