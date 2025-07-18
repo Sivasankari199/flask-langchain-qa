@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🧠 PDF Semantic Search Q&A App (Flask + LangChain + AWS + OpenAI)
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
@@ -147,3 +148,7 @@ flask-langchain-qa/
 │ └── index.html
 └── static/
 └── uploads/ 
+=======
+# flask-langchain-qa
+Flask web app for question answering on PDF documents using LangChain, Chroma (vector DB), OpenAI LLM, and AWS SageMaker embeddings. Upload PDFs and get instant, context-aware answers.
+>>>>>>> ba7735bfa3dfb9fe8c4956c5ad0b8ceacbfe0a61
