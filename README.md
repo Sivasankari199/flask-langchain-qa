@@ -28,6 +28,11 @@ This project demonstrates a **cloud-native Generative AI architecture** using AW
 - Final answer generated using **OpenAI GPT-3.5**, grounded in vector-retrieved context
 
 ---
+## 🖼️ Demo
+
+The screenshot below shows the user interface for uploading a PDF and asking questions. The app leverages LangChain, AWS SageMaker embeddings, Chroma vector search, and OpenAI LLM for robust document Q&A.
+
+![Flask LangChain QA App Demo](images/flask_langchain_qa_demo.png)
 
 ## 🧱 Architecture Diagram
 
